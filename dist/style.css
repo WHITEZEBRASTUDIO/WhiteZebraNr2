@@ -1,0 +1,57 @@
+.navigation {
+  top:0;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 80px;
+  z-index: 10;
+  margin: 0 330px;
+  padding-top: 40px;
+  
+}
+
+.navigation a {
+  list-style: none;
+  display: inline-block;
+  color: black;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+  justify-fontent: space-between;
+  margin: 20px;
+}
+
+.navigation a:visited {
+  color: black;
+  text-decoration-line: line-through;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 9px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg); 
+}
+
+div {
+  margin: 90px;
+  width: 100%;
+  position: relative;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: -20px;
+}
+
+div img{
+   height: 300px; 
+   width: 400px;
+}
