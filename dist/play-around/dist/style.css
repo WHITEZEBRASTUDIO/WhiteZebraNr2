@@ -70,3 +70,17 @@ main{
 border:  1px solid grey;
 
 }
+.vertical{
+  height:660px;
+  width:440px;
+}
+.horizontal{
+  width: 760px;
+  height: 440px;
+
+}
+.center{
+  width:770px;
+  height:590px;
+  
+}
